@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>FactoryDemo</OriginalElement>
+  <nodes>
+    <node x="346.0" y="456.0">FactoryDemo.Test</node>
+    <node x="244.0" y="128.0">FactoryDemo.LogitechPeripheralFactory</node>
+    <node x="172.0" y="561.0">FactoryDemo.RazerMouse</node>
+    <node x="135.5" y="0.0">FactoryDemo.PeripheralFactory</node>
+    <node x="0.0" y="128.0">FactoryDemo.RazerPeripheralFactory</node>
+    <node x="107.0" y="251.0">FactoryDemo.KeyBoard</node>
+    <node x="172.0" y="356.0">FactoryDemo.LogitechKeyBoard</node>
+    <node x="0.0" y="356.0">FactoryDemo.RazerKeyBoard</node>
+    <node x="0.0" y="561.0">FactoryDemo.LogitechMouse</node>
+    <node x="91.75" y="456.0">FactoryDemo.Mouse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FactoryDemo.LogitechMouse" target="FactoryDemo.Mouse">
+      <point x="0.0" y="-27.5" />
+      <point x="76.0" y="536.0" />
+      <point x="124.0" y="536.0" />
+      <point x="-32.25" y="27.5" />
+    </edge>
+    <edge source="FactoryDemo.RazerPeripheralFactory" target="FactoryDemo.PeripheralFactory">
+      <point x="0.0" y="-39.0" />
+      <point x="112.0" y="103.0" />
+      <point x="187.75" y="103.0" />
+      <point x="-52.25" y="39.0" />
+    </edge>
+    <edge source="FactoryDemo.RazerMouse" target="FactoryDemo.Mouse">
+      <point x="0.0" y="-27.5" />
+      <point x="236.5" y="536.0" />
+      <point x="188.5" y="536.0" />
+      <point x="32.25" y="27.5" />
+    </edge>
+    <edge source="FactoryDemo.LogitechPeripheralFactory" target="FactoryDemo.PeripheralFactory">
+      <point x="0.0" y="-39.0" />
+      <point x="368.0" y="103.0" />
+      <point x="292.25" y="103.0" />
+      <point x="52.25" y="39.0" />
+    </edge>
+    <edge source="FactoryDemo.RazerKeyBoard" target="FactoryDemo.KeyBoard">
+      <point x="0.0" y="-27.5" />
+      <point x="76.0" y="331.0" />
+      <point x="137.5" y="331.0" />
+      <point x="-30.5" y="27.5" />
+    </edge>
+    <edge source="FactoryDemo.LogitechKeyBoard" target="FactoryDemo.KeyBoard">
+      <point x="0.0" y="-27.5" />
+      <point x="260.0" y="331.0" />
+      <point x="198.5" y="331.0" />
+      <point x="30.5" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="252.0" y="308.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
