@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StateModeDemo</OriginalElement>
+  <nodes>
+    <node x="255.0" y="197.0">StateModeDemo.WinnerState</node>
+    <node x="0.0" y="475.0">StateModeDemo.CandyMachine</node>
+    <node x="1020.0" y="197.0">StateModeDemo.SoldOutState</node>
+    <node x="553.0" y="0.0">StateModeDemo.State</node>
+    <node x="765.0" y="197.0">StateModeDemo.OnReadyState</node>
+    <node x="510.0" y="197.0">StateModeDemo.SoldState</node>
+    <node x="0.0" y="197.0">StateModeDemo.HasCoin</node>
+    <node x="223.0" y="475.0">StateModeDemo.MainTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StateModeDemo.HasCoin" target="StateModeDemo.State">
+      <point x="0.0" y="-116.5" />
+      <point x="117.5" y="167.0" />
+      <point x="567.9" y="167.0" />
+      <point x="-59.60000000000002" y="73.5" />
+    </edge>
+    <edge source="StateModeDemo.SoldState" target="StateModeDemo.State">
+      <point x="0.0" y="-116.5" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="StateModeDemo.OnReadyState" target="StateModeDemo.State">
+      <point x="0.0" y="-116.5" />
+      <point x="882.5" y="177.0" />
+      <point x="657.3" y="177.0" />
+      <point x="29.799999999999955" y="73.5" />
+    </edge>
+    <edge source="StateModeDemo.SoldOutState" target="StateModeDemo.State">
+      <point x="0.0" y="-116.5" />
+      <point x="1137.5" y="167.0" />
+      <point x="687.1" y="167.0" />
+      <point x="59.60000000000002" y="73.5" />
+    </edge>
+    <edge source="StateModeDemo.WinnerState" target="StateModeDemo.State">
+      <point x="0.0" y="-116.5" />
+      <point x="372.5" y="177.0" />
+      <point x="597.7" y="177.0" />
+      <point x="-29.799999999999955" y="73.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.42214912280701755" x="627.5" y="446.0" />
+  <SelectedNodes>
+    <node>StateModeDemo.HasCoin</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
