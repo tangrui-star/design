@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ObserverModeDemo</OriginalElement>
+  <nodes>
+    <node x="0.0" y="491.0">ObserverModeDemo.StudentObserver</node>
+    <node x="0.0" y="174.0">ObserverModeDemo.TeacherSubject</node>
+    <node x="6.5" y="0.0">ObserverModeDemo.Subject</node>
+    <node x="337.0" y="386.0">ObserverModeDemo.DemoTest</node>
+    <node x="62.5" y="386.0">ObserverModeDemo.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ObserverModeDemo.TeacherSubject" target="ObserverModeDemo.Subject">
+      <point x="0.0" y="-83.5" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="ObserverModeDemo.StudentObserver" target="ObserverModeDemo.Observer">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8895705521472392" x="247.5" y="316.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

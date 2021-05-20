@@ -4,61 +4,63 @@
   <OriginalElement>FactoryDemo</OriginalElement>
   <nodes>
     <node x="346.0" y="456.0">FactoryDemo.Test</node>
-    <node x="244.0" y="128.0">FactoryDemo.LogitechPeripheralFactory</node>
-    <node x="172.0" y="561.0">FactoryDemo.RazerMouse</node>
-    <node x="135.5" y="0.0">FactoryDemo.PeripheralFactory</node>
-    <node x="0.0" y="128.0">FactoryDemo.RazerPeripheralFactory</node>
-    <node x="107.0" y="251.0">FactoryDemo.KeyBoard</node>
-    <node x="172.0" y="356.0">FactoryDemo.LogitechKeyBoard</node>
-    <node x="0.0" y="356.0">FactoryDemo.RazerKeyBoard</node>
-    <node x="0.0" y="561.0">FactoryDemo.LogitechMouse</node>
-    <node x="91.75" y="456.0">FactoryDemo.Mouse</node>
+    <node x="0.0" y="128.0">FactoryDemo.LogitechPeripheralFactory</node>
+    <node x="0.0" y="561.0">FactoryDemo.RazerMouse</node>
+    <node x="147.5" y="0.0">FactoryDemo.PeripheralFactory</node>
+    <node x="268.0" y="128.0">FactoryDemo.RazerPeripheralFactory</node>
+    <node x="119.0" y="251.0">FactoryDemo.KeyBoard</node>
+    <node x="0.0" y="356.0">FactoryDemo.LogitechKeyBoard</node>
+    <node x="196.0" y="356.0">FactoryDemo.RazerKeyBoard</node>
+    <node x="149.0" y="561.0">FactoryDemo.LogitechMouse</node>
+    <node x="80.25" y="456.0">FactoryDemo.Mouse</node>
   </nodes>
   <notes />
   <edges>
     <edge source="FactoryDemo.LogitechMouse" target="FactoryDemo.Mouse">
       <point x="0.0" y="-27.5" />
-      <point x="76.0" y="536.0" />
-      <point x="124.0" y="536.0" />
-      <point x="-32.25" y="27.5" />
+      <point x="225.0" y="536.0" />
+      <point x="177.0" y="536.0" />
+      <point x="32.25" y="27.5" />
     </edge>
     <edge source="FactoryDemo.RazerPeripheralFactory" target="FactoryDemo.PeripheralFactory">
       <point x="0.0" y="-39.0" />
-      <point x="112.0" y="103.0" />
-      <point x="187.75" y="103.0" />
-      <point x="-52.25" y="39.0" />
+      <point x="380.0" y="103.0" />
+      <point x="304.25" y="103.0" />
+      <point x="52.25" y="39.0" />
     </edge>
     <edge source="FactoryDemo.RazerMouse" target="FactoryDemo.Mouse">
       <point x="0.0" y="-27.5" />
-      <point x="236.5" y="536.0" />
-      <point x="188.5" y="536.0" />
-      <point x="32.25" y="27.5" />
+      <point x="64.5" y="536.0" />
+      <point x="112.5" y="536.0" />
+      <point x="-32.25" y="27.5" />
     </edge>
     <edge source="FactoryDemo.LogitechPeripheralFactory" target="FactoryDemo.PeripheralFactory">
       <point x="0.0" y="-39.0" />
-      <point x="368.0" y="103.0" />
-      <point x="292.25" y="103.0" />
-      <point x="52.25" y="39.0" />
+      <point x="124.0" y="103.0" />
+      <point x="199.75" y="103.0" />
+      <point x="-52.25" y="39.0" />
     </edge>
     <edge source="FactoryDemo.RazerKeyBoard" target="FactoryDemo.KeyBoard">
       <point x="0.0" y="-27.5" />
-      <point x="76.0" y="331.0" />
-      <point x="137.5" y="331.0" />
-      <point x="-30.5" y="27.5" />
+      <point x="272.0" y="331.0" />
+      <point x="210.5" y="331.0" />
+      <point x="30.5" y="27.5" />
     </edge>
     <edge source="FactoryDemo.LogitechKeyBoard" target="FactoryDemo.KeyBoard">
       <point x="0.0" y="-27.5" />
-      <point x="260.0" y="331.0" />
-      <point x="198.5" y="331.0" />
-      <point x="30.5" y="27.5" />
+      <point x="88.0" y="331.0" />
+      <point x="149.5" y="331.0" />
+      <point x="-30.5" y="27.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="252.0" y="308.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="252.0" y="343.0" />
+  <SelectedNodes>
+    <node>FactoryDemo.Test</node>
+  </SelectedNodes>
   <Categories>
-    <Category>Fields</Category>
     <Category>Constructors</Category>
     <Category>Methods</Category>
+    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
