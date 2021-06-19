@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>principle.segregation</OriginalElement>
+  <nodes>
+    <node x="245.0" y="389.0">principle.segregation.Segregation1</node>
+    <node x="0.0" y="535.0">principle.segregation.improve</node>
+    <node x="367.0" y="0.0">principle.segregation.A</node>
+    <node x="85.5" y="0.0">principle.segregation.InterFace1</node>
+    <node x="171.0" y="197.0">principle.segregation.B</node>
+    <node x="0.0" y="389.0">principle.segregation.C</node>
+    <node x="0.0" y="197.0">principle.segregation.D</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="principle.segregation.B" target="principle.segregation.InterFace1">
+      <point x="0.0" y="-73.5" />
+      <point x="246.5" y="172.0" />
+      <point x="198.75" y="172.0" />
+      <point x="37.75" y="73.5" />
+    </edge>
+    <edge source="principle.segregation.D" target="principle.segregation.InterFace1">
+      <point x="0.0" y="-73.5" />
+      <point x="75.5" y="172.0" />
+      <point x="123.25" y="172.0" />
+      <point x="-37.75" y="73.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="283.5" y="294.0" />
+  <SelectedNodes>
+    <node>principle.segregation.Segregation1</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
